@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1XMt9oZLR7XdVkQqrMp9PczMsq3_cUgif'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1XMt9oZLR7XdVkQqrMp9PczMsq3_cUgif'
 export_file_name = 'export 2 .pkl'
 
 classes = ['Abyssinian',
